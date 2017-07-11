@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Screen video capture</string>
+    <string name="start_rec_message">Запись экрана включена</string>
+    <string name="stop_rec_message">Запись экрана выключена</string>
+    <string name="start_btn_text">Start</string>
+    <string name="stop_btn_text">Stop</string>
+    <string name="begin_url">http://yandex.ru</string>
+    <string name="video_bit_rate">260</string>
+    <string name="screen_cast_permission_denied_error">Увы Screen Cast запрещён</string>
+    <string name="share">Отправить видео</string>
+    <string name="DeleteQuestion">Удалить видео %s?</string>
+    <string name="app_storage_subfolder">videofiles</string>
+</resources>

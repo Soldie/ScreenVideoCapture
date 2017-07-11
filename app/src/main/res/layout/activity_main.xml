@@ -1,0 +1,71 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.screencapture.reva.screencapture.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_weight="0.18">
+
+
+        <ToggleButton
+            android:text="@string/start_btn_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textOn="@string/stop_btn_text"
+            android:textOff="@string/start_btn_text"
+            android:id="@+id/button_rec" />
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+    <TextView
+        android:text="TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/video_filepath"
+        android:layout_weight="1"
+        android:paddingLeft="5dp"
+        android:layout_gravity="top"/>
+    <Button
+    android:layout_height="48dp"
+    android:layout_gravity="right"
+    android:background="@android:drawable/ic_media_play"
+    android:layout_width="48dp"
+    android:id="@+id/button_play_video"
+    android:visibility="invisible" />
+    <Button
+        android:layout_height="48dp"
+        android:layout_gravity="right"
+        android:background="@android:drawable/ic_menu_share"
+        android:layout_width="48dp"
+        android:id="@+id/button_share_video"
+        android:visibility="invisible" />
+    <Button
+        android:layout_height="48dp"
+        android:layout_gravity="right"
+        android:background="@android:drawable/ic_menu_delete"
+        android:layout_width="48dp"
+        android:id="@+id/button_del_video"
+        android:visibility="invisible" />
+</LinearLayout>
+
+
+    </LinearLayout>
+
+    <WebView
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:id="@+id/mainBrowser"
+        android:layout_weight="1.92"></WebView>
+
+</LinearLayout>
